@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let word of listWord">
+    <a [routerLink]="[word.key]">{{word.key}}</a>
+    </li>
+</ul>
+<router-outlet></router-outlet>
